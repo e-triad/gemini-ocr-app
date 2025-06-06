@@ -1,0 +1,17 @@
+# .dockerignore
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Streamlit secrets (Docker環境では使わないため)
+.streamlit/
